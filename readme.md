@@ -24,7 +24,7 @@ cd your-project
 ### 2. Setup virtual environment
 
 ```bash
-python -m venv venv
+python -m venv .venv
 source venv/bin/activate  # on Windows: venv\Scripts\activate
 ```
 
@@ -36,10 +36,10 @@ pip install -r requirements.txt
 
 ### 4. Run backend server
 
-> Replace `main.py` with your actual entrypoint file name.
+> Replace `app.py` with your actual entrypoint file name.
 
 ```bash
-python main.py
+python app.py
 ```
 
 ---
